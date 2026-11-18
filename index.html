@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#04050a" />
+  <title>千本桜景厳 — Senbonzakura Kageyoshi | Byakuya Kuchiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Shippori+Mincho:wght@400;600;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="boot-curtain" id="boot-curtain" aria-hidden="true">
+    <div class="boot-seal">
+      <span class="boot-kanji">千本桜景厳</span>
+      <span class="boot-sub">Forging 1,000 Blades…</span>
+    </div>
+  </div>
+
+  <main class="scroll-track" id="scroll-track">
+    <div class="sticky-stage">
+      <div id="webgl-mount"></div>
+
+      <div class="hud-layer">
+        <div class="hud-top">
+          <div class="crest-badge">
+            <span class="crest-emblem" aria-hidden="true">六</span>
+            <div class="crest-meta">
+              <span class="crest-title">Kuchiki Byakuya · 28th Clan Head</span>
+              <span class="crest-sub">千本桜景厳 · Senbonzakura Kageyoshi</span>
+            </div>
+          </div>
+          <div class="gesture-hint" id="gesture-hint">Move cursor to guide the 2× blade current</div>
+        </div>
+
+        <div class="tategaki-title" id="tategaki-title" aria-hidden="true">千本桜景厳</div>
+
+        <div class="story-overlay" aria-live="polite">
+          <div class="form-tag" id="form-tag"></div>
+          <div class="subtitle-jp" id="subtitle-jp"></div>
+          <div class="subtitle-en" id="subtitle-en"></div>
+        </div>
+
+        <div class="scroll-hint" id="scroll-hint">
+          <span>Scroll to Release</span>
+          <span class="scroll-chevron" aria-hidden="true">↓</span>
+        </div>
+
+        <div class="hud-bottom">
+          <div class="cinema-pill">
+            <button type="button" class="pill-btn" id="play-btn" data-playing="false"
+              aria-label="Auto-play Bankai timeline">
+              <span id="play-icon">▶</span>
+              <span id="play-label">Auto-Play</span>
+            </button>
+            <span class="pill-divider" aria-hidden="true"></span>
+            <div class="pill-status">
+              <span class="pill-act-jp" id="act-jp">序幕</span>
+              <span class="pill-act-title" id="act-name">Aristocrat’s Oath</span>
+              <span class="pill-pct" id="scroll-pct">0%</span>
+            </div>
+            <span class="pill-divider" aria-hidden="true"></span>
+            <button type="button" class="pill-btn" id="sound-btn" aria-pressed="false"
+              aria-label="Toggle atmospheric audio">
+              <span id="sound-label">Sound Off</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <nav class="chapter-rail" id="chapter-rail" aria-label="Senbonzakura Kageyoshi Forms"></nav>
+    </div>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

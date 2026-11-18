@@ -1,0 +1,98 @@
+export const ACTS = [
+  {
+    id: "oath",
+    t: 0.0,
+    end: 0.09,
+    jp: "序幕",
+    name: "Aristocrat’s Oath",
+    tag: "6th Division Captain · Kuchiki Pride",
+    tategaki: "銀白風花紗",
+    subJP:
+      "まさか、貴様、失念しているわけではあるまいな。私にも卍解があるということを。",
+    subEN: "“Surely you have not forgotten… that I too possess a Bankai.”",
+  },
+  {
+    id: "drop",
+    t: 0.09,
+    end: 0.21,
+    jp: "卍解",
+    name: "The Colonnade",
+    tag: "Release · Mirror Water & One Thousand Giant Blades",
+    tategaki: "卍解・千本桜景厳",
+    subJP: "見ぬがいい、黒崎一護。これが私の卍解だ。",
+    subEN:
+      "The sword slips into liquid mirror; a twin cathedral of steel ascends from the abyss.",
+  },
+  {
+    id: "scatter",
+    t: 0.21,
+    end: 0.36,
+    jp: "散華",
+    name: "Scatter (2× Surge)",
+    tag: "Omnidirectional Barrage · Hand-Guided Speed",
+    tategaki: "散れ、千本桜景厳",
+    subJP: "手掌で操れば、速度は二倍。死角など皆無。",
+    subEN:
+      "“Guided by my hands, its speed doubles—billions of blades leaving not a single blind spot.”",
+  },
+  {
+    id: "gokei",
+    t: 0.36,
+    end: 0.49,
+    jp: "吭景",
+    name: "Gōkei: Mawscape",
+    tag: "Technique II · Spherical Implosion",
+    tategaki: "吭景・千本桜景厳",
+    subJP: "誇るがいい。我が卍解を受けて滅びることを。",
+    subEN:
+      "“Take pride in falling beneath my Bankai — Gōkei: Senbonzakura Kageyoshi.”",
+  },
+  {
+    id: "senkei",
+    t: 0.49,
+    end: 0.65,
+    jp: "殲景",
+    name: "Senkei: Slaughterscape",
+    tag: "True Form · Four Tiers of One Thousand Swords",
+    tategaki: "殲景・千本桜景厳",
+    subJP: "これが千本桜の真の姿。この千本の槍列が一度に貴様を襲うことはない。",
+    subEN:
+      "“This is Senbonzakura’s true form—forged solely to slay in pure, solitary honor.”",
+  },
+  {
+    id: "hakuteiken",
+    t: 0.65,
+    end: 0.8,
+    jp: "終景",
+    name: "Shūkei: Hakuteiken",
+    tag: "Final Scape · White Imperial Sword",
+    tategaki: "終景・白帝剣",
+    subJP: "千本桜景厳、終景・白帝剣。その身を以て確かめるがいい。",
+    subEN:
+      "Every blade condenses into blazing white seraph wings—the pinnacle of Kuchiki pride.",
+  },
+  {
+    id: "oken",
+    t: 0.8,
+    end: 0.91,
+    jp: "王鍵",
+    name: "Royal Rebirth",
+    tag: "Soul King Palace · Ōken Regalia & Multiplied Blades",
+    tategaki: "霊王宮・再誕",
+    subJP: "命を賭すことと、命を捨てることは違う。",
+    subEN:
+      "Broken by fear, reborn in the Royal Palace—pillars multiply beyond counting.",
+  },
+  {
+    id: "ikka",
+    t: 0.91,
+    end: 1.0,
+    jp: "一咬",
+    name: "Ikka Senjinka",
+    tag: "Ultimate Senkei · One Bite, Thousand Bladed Flower",
+    tategaki: "一咬千刃花",
+    subJP: "一咬千刃花——千の刃、ただ一撃に咲く。",
+    subEN:
+      "Pride laid aside for protection—every Senkei blade strikes as one blooming storm.",
+  },
+];
